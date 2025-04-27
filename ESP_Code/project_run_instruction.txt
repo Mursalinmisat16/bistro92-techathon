@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Collect IP address of laptop from cmd with ipconfig command
 
 2. Open Backend folder in VS
@@ -14,4 +15,22 @@
 4. Open Thonny
 	i. go to main.py file of ESP_Code folder
 	ii. replace ip value
+=======
+1. Collect IP address of laptop from cmd with ipconfig command
+
+2. Open Backend folder in VS
+	i. open terminal
+	ii. choose cmd as terminal
+	iii. activate virtual environment
+	iv. run command --> fastapi dev main.py --host 0.0.0.0
+
+3. Open Frontend/cuet-frontend in VS
+	i. change ip in ServerIP.jsx file
+	ii. Open terminal
+	iii. run command --> npm run dev
+
+4. Open Thonny
+	i. go to main.py file of ESP_Code folder
+	ii. replace ip value
+>>>>>>> 50f941ae79a2e96e76b721b3f15a0ae2c2ca6d91
 	iii. replace table number if you want
